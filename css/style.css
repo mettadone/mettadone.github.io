@@ -1,0 +1,441 @@
+
+body {
+    background: #333;
+}
+/*************************
+*******Home CSS**********
+**************************/
+#brand{
+    height: 17px;
+    width: 100px;
+    
+}
+
+/*************************
+*******About CSS**********
+**************************/
+
+#about {
+  background-color: firebrick;  
+  position: relative;  
+  width: 100%;
+  display: flex;
+}
+
+.about-img {
+  top: 0;
+  width: 50%;
+}
+.about-content {
+  width: 50%;
+   background-image: url("../images/about1.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 70px 110px;
+}
+
+
+#about h2 {
+  margin-bottom: 23px;
+    color: azure;
+}
+
+.about-content p {
+  font-size: 17px;
+  font-family: 'Dosis',sans-serif;
+    color: cornsilk;
+}
+
+#about .btn-primary {
+  background-color: #137c61;
+  color: #fff;
+  text-transform: capitalize;
+  border: none;
+  margin-top: 28px;
+}
+
+#about .btn-primary:hover {
+  background-color: #126d55
+}
+
+/*************************
+******Contact CSS****
+**************************/
+
+.contact-section {
+  background-image: url("../images/contacts.png");
+  background-size:cover;
+  background-repeat:no-repeat;  
+  position: relative;
+}
+
+.ear-piece {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#contact-section h3 {
+  margin-bottom: 23px;
+  color: azure;
+}
+.contact-text h3{
+  margin-bottom: 23px;
+  color: azure;
+}
+.contact-text address{
+  margin-bottom: 20px;
+  color: floralwhite;
+}
+#contact-section .form-control {
+  border-color: #ae750d;
+  box-shadow:none;
+  outline: 0 none;
+  border-radius: 0;
+  color: #797979;
+  font-size: 18px;
+}
+
+#contact-section .form-control:focus {
+  border-color: #ae750d;
+}
+
+#contact-section input {  
+  height: 44px;
+}
+
+#contact-section textarea {
+  height: 90px;
+  resize:none;
+}
+
+#contact-section .btn-primary {
+  background-color: #373737;
+  color: #f7ab24;
+  border: none;
+  font-size: 24px;
+  padding: 6px 42px;
+  margin-bottom: 110px;
+  margin-top: 10px
+}
+
+#contact-section .btn-primary:hover {
+  background-color: #212020;
+  color: #fff
+}
+
+/*************************
+******Map CSS****
+**************************/
+#myModal label { 
+    width: auto!important; 
+    display:inline!important; 
+}
+#myModal img { 
+    max-width: none!important; 
+}
+#map {
+  position: relative;
+}
+
+#gmap {
+  height:450px;  
+}
+#mapcanvas {
+    width:520px; 
+    height:400px
+}
+#mapcanvas label { 
+    width: auto!important; 
+    display:inline!important; 
+}
+#mapcanvas img { 
+    max-width: none!important; 
+}
+
+
+ /*************************
+******Lyrics CSS****
+**************************/
+
+#lyrics-carousel {
+}
+#lyrics-carousel img{
+}
+.text-right h2{
+    font-size: 23px;
+}
+.text-right h4{
+    font-size: 16px;
+}
+.text-left h2{
+    font-size: 23px;
+}
+.text-left h4{
+    font-size: 16px;
+}
+
+/*************************
+******Credits CSS****
+**************************/
+.credits-content {
+  background-image: url("../images/bg-light-4815.png");
+  background-repeat:round;  
+}
+.portfolio-items li {
+    display:inline-block;
+    float:left;
+    list-style:none;
+    position:relative;
+    margin:10px;
+}
+
+.portfolio-items li img {
+    display:block;
+    width:300px;
+    height:300px;
+    background:#080808;
+    border:1px solid #080808;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -moz-box-shadow:0 0 5px rgba(0,0,0,0.35);
+    -webkit-box-shadow:0 0 5px rgba(0,0,0,0.35);
+    padding:6px;
+}
+.portfolio-items li div.caption h3{
+    font-weight:700;
+    font-size:16px;
+    text-transform:uppercase;
+    padding-bottom:5px;
+    margin-bottom:10px;
+    border-bottom:1px solid #aaa;
+    text-shadow:1px 1px 1px #303857;
+}
+.portfolio-items li div.caption{
+    display:block;
+    background:rgba(0,0,0,0.7);
+    color:#fff;
+    font-family:Arial,sans-serif;
+    font-weight:400;
+    font-size:11px;
+    position:absolute;
+    overflow:hidden;
+    text-shadow:1px 1px 1px #303857;
+    opacity:0;
+    filter:alpha(opacity=0);
+    -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    -ms-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out;
+    padding:10px;
+}
+.portfolio-items li:hover div.caption{
+    width:200px;
+    height:120px;
+    opacity:1;
+    filter:alpha(opacity=80);
+}
+.portfolio-items li div.caption {
+    bottom:7px;
+    right:7px;
+    width:0;
+    height:0;
+}
+ /*************************
+******Footer CSS****
+**************************/
+#footer {
+  background-color: #080808;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 35px 0;
+}
+
+#footer a {
+  color:#f7ab24
+}
+
+#footer a:hover {
+  color:#1B7B98
+}
+
+@media (max-width: 1165px) {
+    .about-img{
+      display: none;
+    }
+    .about-content{
+      width: 100%;  
+    }
+    .ear-piece {
+        display: none;
+    }
+    
+}
+@media (max-width: 768px){
+    .navbar-brand{
+        display: none;
+    }
+}
+@media (min-width: 1500px){
+    .text-right h2{
+    font-size: 26px;
+    }
+    .text-right h4{
+        font-size: 20px;
+    }
+    .text-left h2{
+        font-size: 26px;
+    }
+    .text-left h4{
+        font-size: 20px;
+    }
+    #about h2 {
+      margin-bottom: 30px;
+      color: azure;
+    }
+
+    .about-content p {
+      font-size: 25px;
+    }
+    #contact-section h3 {
+      margin-bottom: 26px;
+      color: azure;
+    }
+    .contact-text h3{
+      margin-bottom: 26px;
+      color: azure;
+    }
+    .contact-text address{
+      margin-bottom: 24px;
+      color: floralwhite;
+    }
+
+}
+@media (max-width: 1115px){
+    .text-right h2{
+    font-size: 18px;
+    }
+    .text-right h4{
+        font-size: 13px;
+    }
+    .text-left h2{
+        font-size: 18px;
+    }
+    .text-left h4{
+        font-size: 13px;
+    }
+}
+@media (max-width: 990px){
+     .text-right h2{
+    font-size: 16px;
+    }
+    .text-right h4{
+        font-size: 12px;
+    }
+    .text-left h2{
+        font-size: 16px;
+    }
+    .text-left h4{
+        font-size: 12px;
+    }
+}
+@media (max-width: 884px){
+    .text-right h2{
+    font-size: 12px;
+    }
+    .text-right h4{
+        font-size: 10px;
+    }
+    .text-left h2{
+        font-size: 12px;
+    }
+    .text-left h4{
+        font-size: 10px;
+    }
+}
+@media (max-width: 778px){
+    #lyrics-carousel img{
+        background-color: #080808;
+ background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+        height: 400px;
+}
+}
+@media (max-width: 590px){
+    #lyrics-carousel img{
+        background-color: #080808;
+ background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+        height: 430px;
+}
+}
+@media (max-width: 511px){
+    #lyrics-carousel img{
+        background-color: #080808;
+ background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+        height: 445px;
+}
+}
+@media (max-width: 480px){
+    #lyrics-carousel img{
+        background-color: #080808;
+ background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+        height: 500px;
+}
+}
+@media (max-width: 447px){
+    #lyrics-carousel img{
+        background-color: #080808;
+ background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+        height: 570px;
+}
+}
+@media (max-width: 395px){
+    #lyrics-carousel img{
+        background-color: #080808;
+ background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+        height: 600px;
+}
+}
+@media (max-width: 337px){
+    #lyrics-carousel img{
+        background-color: #080808;
+ background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+        height: 650px;
+}
+}
+@media (max-width: 240px){
+    #lyrics-carousel img{
+        background-color: #080808;
+ background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+        height: 700px;
+}
+}
+@media (max-width: 217px){
+    #lyrics-carousel img{
+        background-color: #080808;
+ background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+        height: 900px;
+}
+}
